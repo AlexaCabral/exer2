@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Style for navigation bar */
 nav {
 position: fixed;
 display: flex;
@@ -32,6 +33,7 @@ color: white;
 font-weight: 500;
 }
 
+/* Background image */
 body {
 background-image: url(images/background.jpg);
 background-size: cover;
@@ -44,6 +46,7 @@ color: white;
 font-size: 28px;
 }
 
+/* Style for featured photo */
 .featured {
 display: flex;
 justify-content: center;
@@ -55,6 +58,7 @@ height: 400px;
 width: 700px;
 }
 
+/* Style for previous projects */
 .prevproj-container{
 padding-top: 30px;
 display: flex;
@@ -67,6 +71,7 @@ display: inline-block;
 padding: 10px 25px;
 }
 
+/* Style for footer */
 footer {
 display: flex;
 justify-content: space-around;
