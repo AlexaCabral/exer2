@@ -1,0 +1,68 @@
+/* Applies to all elements */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+}
+
+nav ul {
+  padding-left: 500px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.featured img{
+  height: 400px;
+  width: 700px;
+}
+
+.prevproj-container{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.prevproj-container ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
